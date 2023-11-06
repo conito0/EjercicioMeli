@@ -76,7 +76,7 @@
       <recent name="com.example.mercadolibre.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MercadolibreApplication">
+  <component name="RunManager" selected="Gradle.MutantServiceTest">
     <configuration name="MercadolibreApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.mercadolibre.MercadolibreApplication" />
       <module name="mercadolibre.main" />
@@ -104,30 +104,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.example.mercadolibre.MercadolibreApplicationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MercadolibreApplicationTests.checkMutant" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/mercadolibre" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.example.mercadolibre.MercadolibreApplicationTests.checkMutant&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,13 +162,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MutantServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mercadolibre" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.mercadolibre.services.MutantServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MutantServiceTest" />
         <item itemvalue="Application.MercadolibreApplication" />
         <item itemvalue="Gradle.MercadolibreApplicationTests" />
         <item itemvalue="Gradle.MercadolibreApplicationTests.checkMutantInvalidLetter" />
         <item itemvalue="Gradle.MercadolibreApplicationTests.checkMutantInvalidSize" />
-        <item itemvalue="Gradle.MercadolibreApplicationTests.checkMutant" />
       </list>
     </recent_temporary>
   </component>
