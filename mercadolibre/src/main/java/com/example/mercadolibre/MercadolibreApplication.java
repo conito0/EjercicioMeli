@@ -15,6 +15,11 @@ public class MercadolibreApplication {
 	public static final int LINES_QUANTITY = 6;
 	public static final int LINES_LONG = 6;
 	public static final String ALLOWED_CHARACTERS = "ATCG";
+
+
+
+
+
 	public static MutantService mutantService = new MutantService();
 
 	public static void checkMutant() {
@@ -49,7 +54,7 @@ public class MercadolibreApplication {
 
 		boolean isMutant = mutantService.isMutant(dna.toArray(new String[0]));
 
-		System.out.println(isMutant ? "El ADN ingresado es de un mutante" : "El ADN ingresado es de un humano");
+		System.out.println(isMutant ? "!!!El ADN ingresado es de un mutante!!!" : "El ADN ingresado es de un humano");
 
 	}
 
@@ -57,6 +62,7 @@ public class MercadolibreApplication {
 		SpringApplication.run(MercadolibreApplication.class, args);
 
 		MercadolibreApplication.checkMutant();
+
 	}
 
 }
